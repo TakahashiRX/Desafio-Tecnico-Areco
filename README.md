@@ -64,16 +64,6 @@ GEMINI_API_KEY=SUA_CHAVE_GEMINI
 GEMINI_MODEL=gemini-3-flash-preview
 ```
 
-Modelos recomendados:
-- `gemini-3-flash-preview` (mais rapido e economico)
-- `gemini-3-pro-preview` (maior capacidade de inferencia)
-
-Opcional no frontend (`frontend/.env.local`):
-
-```env
-NEXT_PUBLIC_API_BASE_URL=http://127.0.0.1:8000
-```
-
 ## Execucao da Aplicacao
 
 ### 1. Preparar banco de dados
@@ -100,8 +90,6 @@ npm run dev
 
 ### 4. Acessos
 - Frontend: `http://localhost:3000`
-- Swagger: `http://127.0.0.1:8000/docs`
-- Health check: `http://127.0.0.1:8000/api/health`
 
 ## Regras de Seguranca (Backend)
 - apenas consultas iniciadas por `SELECT` sao permitidas
