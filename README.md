@@ -130,15 +130,3 @@ Erro tipico: `RESOURCE_EXHAUSTED` ou `limit: 0`.
 Causa:
 - a API Key esta sem quota/billing ativo para `generate_content`.
 
-Acoes recomendadas:
-1. Validar billing ativo no projeto da chave.
-2. Confirmar que a chave no `backend/.env` pertence ao projeto correto.
-3. Testar com `GEMINI_MODEL=gemini-3-flash-preview`.
-4. Aguardar propagacao de quota apos ativacao.
-
-## Status de Entrega
-- Etapa 1: concluida
-- Etapa 2: concluida
-- Etapa 3: concluida
-- Etapa 4: concluida
-- Etapa 5: concluida
