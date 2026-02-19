@@ -111,10 +111,3 @@ npm run lint
 cd backend
 python -m py_compile main.py text_to_sql.py db_utils.py database.py
 ```
-
-## Troubleshooting - Quota da API Gemini
-Erro tipico: `RESOURCE_EXHAUSTED` ou `limit: 0`.
-
-Causa:
-- a API Key esta sem quota/billing ativo para `generate_content`.
-
