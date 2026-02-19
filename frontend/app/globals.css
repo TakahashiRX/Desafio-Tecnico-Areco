@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --areco-ink: #0d3b66;
+  --areco-gold: #e07a5f;
+  --areco-cream: #f8f9fa;
+  --areco-white: #ffffff;
+  --areco-text: #183247;
+  --areco-muted: #557287;
+  --areco-line: #d7e0e8;
+}
+
+@theme inline {
+  --font-sans: var(--font-space-grotesk);
+  --font-mono: var(--font-ibm-plex-mono);
+}
+
+body {
+  color: var(--areco-text);
+  background:
+    radial-gradient(circle at 15% 0%, #e4edf6 0%, transparent 35%),
+    radial-gradient(circle at 85% 100%, #fde8dd 0%, transparent 28%),
+    linear-gradient(180deg, #f9fbfd 0%, #f5f7fa 100%);
+  min-height: 100vh;
+}
